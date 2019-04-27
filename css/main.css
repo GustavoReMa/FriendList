@@ -1,0 +1,94 @@
+
+/* primary-color: background: #3F51B5;
+primary-color-dark: background: #303F9F; */
+h3{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: 400;
+}
+
+.container{
+    margin-left:1px;
+    margin-right: 1px;
+}
+
+/* #listFriends{
+    display: flex;
+    flex-direction: column;
+    width: fit-content;
+}
+
+#listAquaintances{
+    display: flex;
+    flex-direction: column;
+    width: fit-content;
+}
+
+#listFamilys{
+    display: flex;
+    flex-direction: column;
+    width: fit-content;
+} */
+
+#listaAmigos{
+    -webkit-column-count: 2; /* Chrome, Safari, Opera */
+    -moz-column-count: 2; /* Firefox */
+    column-count: 2;
+}
+
+.elementList{
+    background-color: #f8f8ff;
+    border-width: 1px;
+    border-color: darkgray;
+    border-style: solid;
+    margin: 5px 15px 5px 5px;
+    width: 400px;
+    display: flex;
+    flex-direction: row;
+}
+
+img{
+    width: 70px;
+    height: 70px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    padding-left: 10px;
+    padding-top: 10px;
+
+}
+
+.divParagraphs{
+    width: 270px;
+    margin: 20px;
+}
+
+.paragraphName{
+    color: royalblue;
+    font-weight: 700;
+    margin: 0;
+    
+}
+
+.paragraphFriend{
+    color: darkgray;
+    font-weight: 300;
+    
+}
+.nav-item{
+    background:#3F51B5;    
+} 
+
+.nav-link{
+    color: white;
+}
+
+.divSelectedBoxRelationship{
+    align-content: center;
+    justify-content: center;
+    display: grid;
+    padding: 10px;
+    width: 100px;
+}
+
+.selectedBoxRelationShip{
+    width: 100%;
+}
